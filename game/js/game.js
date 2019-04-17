@@ -49,8 +49,8 @@ addEventListener("keyup", function (e) {
 
 // Reset the game when the player catches a monster
 var reset = function () {
-	hero.x = canvas.width / 2;
-	hero.y = canvas.height / 2;
+	hero.x = 32 + (Math.random() * (canvas.width - 64));
+	hero.y = 32 + (Math.random() * (canvas.width - 64));
 
 	// Throw the monster somewhere on the screen randomly
 	monster.x = 32 + (Math.random() * (canvas.width - 64));
