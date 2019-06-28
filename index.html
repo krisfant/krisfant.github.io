@@ -1,128 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>NeverMind</title>
-  <link rel="stylesheet" type="text/css" href="layui/css/layui.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="icon" href="img/ico.png" type="img/x-ico" >
-<!--加载meta IE兼容文件-->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-<![endif]-->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Never Mind</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/ico.png" type="img/x-ico" >
+
+	<!-- Google web font  -->
+	<!--<link href='http://fonts.useso.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>-->
+	
 </head>
-<body>
-  <div class="header">
-    <div class="menu-btn">
-      <div class="menu"></div>
-    </div>
-    <h1 class="logo">
-      <a href="index.html">
-        <img src="img/logo.png">
-      </a>
-    </h1>
-    <div class="nav">
-      <a href="index.html" class="active">文章</a>
-      <a href="html/whisper.html">微语</a>
-      <a href="html/leacots.html">留言</a>
-      <a href="html/album.html">相册</a>
-      <a href="html/about.html">关于</a>
-      <a href="game/index.html">抓住哥布林!</a>
-    </div>
-    <ul class="layui-nav header-down-nav">
-      <li class="layui-nav-item"><a href="index.html" class="active">文章</a></li>
-      <li class="layui-nav-item"><a href="html/whisper.html">微语</a></li>
-      <li class="layui-nav-item"><a href="html/leacots.html">留言</a></li>
-      <li class="layui-nav-item"><a href="html/album.html">相册</a></li>
-      <li class="layui-nav-item"><a href="html/about.html">关于</a></li>
-    </ul>
-    <p class="welcome-text">
-      Welcome
-    </p>
-  </div>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
-  <div class="banner">
-    <div class="cont w1000">
-      <div class="title">
-        <h3>愿你走出半生</h3>
-        <h4>归来仍是少年</h4>
+
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+<!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">NeverMind</a>
       </div>
-      <div class="amount">
-        <!--<p><span class="text">访问量</span><span class="access">1000</span></p>-->
-        <!--<p><span class="text">日志</span><span class="daily-record">1000</span></p>-->
-      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
+            <li><a href="#gallery" class="smoothScroll"><span>Gallery</span></a></li>
+            <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>
+          </ul>
+       </div>
+
     </div>
   </div>
 
-  <div class="content">
-    <div class="cont w1000">
-      <div class="title">
-        <span class="layui-breadcrumb" lay-separator="|">
-          <a href="javascript:;" class="active">设计文章</a>
-          <a href="javascript:;">前端文章</a>
-          <a href="javascript:;">旅游杂记</a>
-        </span>
+
+<!-- Home section -->
+
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">不忘初心 方得始终</h1>
+        <p class="wow fadeInUp" data-wow-delay="0.9s">Never forget why you started, and your mission can be accomplished.</p>
       </div>
-      <div class="list-item">
-        <div class="item">
-          <div class="layui-fluid">
-            <div class="layui-row">
-              <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
-                <div class="img"><img src="img/sy_img1.jpg" alt=""></div>
-              </div>
-              <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
-                <div class="item-cont">
-                  <h3>[示例文章]爷爷的鸡<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
-                  <h5>设计文章</h5>
-                  <p>爷每天5点起床，去鸡行里选鸡，选的是大小均匀的老母鸡，送到家里从杀鸡放血开始，鸡血要留着，倒在有盐水的碗里，烧好开水拔了毛连鸡嘴巴鼻子里的粘液都要挤出来。鸡洗干净六只鸡放到一个锅里炖，要炖一个上午</p>
-                  <a href="blog/blog1.html" class="go-icon"></a>
-                </div>
-            </div>
-            </div>
-           </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- About section -->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>Background</h1>
+          <p>Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis quam sed libero euismod feugiat. In cursus nisi vitae lectus facilisis mollis. Nullam scelerisque, quam nec iaculis vulputate.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="images/about-img.jpg" class="img-responsive img-circle" alt="About">
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title text-center">
+          <h1>Snapshot Team</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        </div>
+      </div>
+
+      <!-- team carousel -->
+      <div id="team-carousel" class="owl-carousel">
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img1.jpg" class="img-responsive img-circle" alt="Mary">
+          </div>
+          <h2 class="heading">Mary, CEO</h2>
+          <p class="description">Aliquam ac justo est. Praesent feugiat cursus est.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img2.jpg" class="img-responsive img-circle" alt="Jack">
+          </div>
+          <h2 class="heading">Jack, Founder</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit non.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img3.jpg" class="img-responsive img-circle" alt="Linda">
+          </div>
+          <h2 class="heading">Linda, Manager</h2>
+          <p class="description">Phasellus nec ante in nunc molestie tincidunt ut eu diam.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img4.jpg" class="img-responsive img-circle" alt="Sandy">
+          </div>
+          <h2 class="heading">Sandy, Director</h2>
+          <p class="description">Curabitur vulputate euismod neque et tincidunt.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img5.jpg" class="img-responsive img-circle" alt="Lukia">
+          </div>
+          <h2 class="heading">Lukia, Fashion</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img6.jpg" class="img-responsive img-circle" alt="George">
+          </div>
+          <h2 class="heading">George, Admin</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img7.jpg" class="img-responsive img-circle" alt="Day">
+          </div>
+          <h2 class="heading">Day, Accountant</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img8.jpg" class="img-responsive img-circle" alt="Lynn">
+          </div>
+          <h2 class="heading">Lynn, Marketing</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+        </div>
+      </div>
+
+      </div>
+      <!-- end team carousel -->
+
+    </div>
+  </div>
+</section>
+
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+<!-- Gallery section -->
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1>Gallery</h1>
+          <p>Nullam scelerisque, quam nec iaculis vulputate, arcu ligula sollicitudin nisl, ac volutpat erat nulla a arcu.</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img1.jpg" alt="image 1"></div>
+            <figcaption>
+              <h1>Sapien arcu</h1>
+              <small>Cum sociis natoque penatibus et magnis dis parturient montes.</small>
+              <a href="#">Read More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img2.jpg" alt="image 2"></div>
+            <figcaption>
+              <h1>Aliquam erat</h1>
+              <small>Suspendisse venenatis quam sed libero euismod feugiat.</small>
+              <a href="#">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <figcaption>
+              <h1>Cras ante sem</h1>
+              <small>Aenean urna massa, convallis vehicula velit et, dictum pellentesque nisi.</small>
+              <a href="#">Learn More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <figcaption>
+              <h1>Sed ornare</h1>
+              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+              <a href="#">Full Post</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact section -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+
+       <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+        <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+          <h1>Join us</h1>
+          <p>Join this warm family,and find your peace heaven. </p>
+          <img src="images/wx.png" style="width: 260px;height: 250px ;margin-top:50px;border:1px solid #53868B">
         </div>
 
 
+
       </div>
-      <div id="demo" style="text-align: center;"></div>
+
     </div>
   </div>
-
-  <div class="footer-wrap">
-    <div class="footer w1000">
-      <div class="qrcode">
-        <img src="img/wx.png" style="width: 200px;height: 200px ">
-      </div>
-      <div class="practice-mode">
-
-        <img src="img/down_img.jpg">
-        <div class="text">
-
-            <div class="contactInfo"></div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript" src="layui/layui.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript">
+</section>
 
 
+<!-- Footer section -->
 
-    layui.config({
+<footer>
+	<div class="container">
+    
+		<div class="row">
 
-      base: '../res/js/util/'
-    }).use(['element','laypage','jquery','menu'],function(){
-      element = layui.element,laypage = layui.laypage,$ = layui.$,menu = layui.menu;
-      laypage.render({
-        elem: 'demo'
-        ,count: 70 //数据总数，从服务端得到
-      });
-      menu.init();
-    })
-  </script>
+			<div class="col-md-12 col-sm-12">
+            
+                <ul class="social-icon"> 
+                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="0.4s"></a></li>
+                    <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.6s"></a></li>
+                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.8s"></a></li>
+                    <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="1.0s"></a></li>
+                </ul>
+
+				<p class="wow fadeInUp"  data-wow-delay="1s" >Copyright &copy; 2016 Snapshot Studio </p>
+                
+			</div>
+			
+		</div>
+        
+	</div>
+</footer>
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript  -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
