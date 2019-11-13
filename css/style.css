@@ -665,10 +665,19 @@ footer {
     padding-bottom: 80px;
   }
 
-}#live2dcanvas {
+}
+#live2dcanvas {
    border: 0 !important;
  }
-
+.show-wx{
+  position:fixed;
+  left:125px;
+  top:350px;
+}
+.show-wx img{
+  width: 2em;
+  height: 2em;
+}
 
 
 
