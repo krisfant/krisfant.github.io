@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="imagetoolbar" content="no">
-<title>WEB ARPG--《新剑侠情缘》</title>
+<title>nevermind-剑侠情缘</title>
 <script>
 var gw=40,gh=20,gwh=45;
 var flag=0;
@@ -165,12 +165,18 @@ var GameText=new GameText();
 var GameGood=new GameGood();
 var audio=new WindowAudio();
 
-document.getElementById("game_eval").run='document.getElementById("title").style.display="";flag++;wait(1000);';
 
+document.getElementById("game_eval").run='document.getElementById("title").style.display="";flag++;wait(1000);';
+function resize_window(){
+
+}
+resize_window();
 function init(){
 	audio.init();
 	document.getElementById("game_eval").SoundRun='audio.PlayBGM("musics/qingyuan.mp3");';
+
 }
+
 
 function MouseDown(){
 	if(GameText.IsShowing!=0){
