@@ -669,11 +669,11 @@ footer {
 #live2dcanvas {
    border: 0 !important;
  }
-.show-wx{
-  position:fixed;
-  left:7%;
-  top:44%;
-}
+/*.show-wx{*/
+/*  position:fixed;*/
+/*  left:7%;*/
+/*  top:44%;*/
+/*}*/
 .show-wx img{
   width: 2em;
   height: 2em;
